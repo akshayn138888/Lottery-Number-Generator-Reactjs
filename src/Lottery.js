@@ -4,9 +4,9 @@ import "./Lottery.css";
 
 class Lottery extends Component {
   static defaultProps = {
-    title: "Lotto",
-    numBalls: 6,
-    maxNum: 40
+    title: "Lotto-Max",
+    numBalls: 8,
+    maxNum: 49
   };
   constructor(props) {
     super(props);
